@@ -119,8 +119,10 @@ LOCAL_SRC_FILES               := \
 	NativeFormats/fbreader/src/formats/oeb/OEBEncryptionReader.cpp \
 	NativeFormats/fbreader/src/formats/oeb/OEBMetaInfoReader.cpp \
 	NativeFormats/fbreader/src/formats/oeb/OEBPlugin.cpp \
+	NativeFormats/fbreader/src/formats/oeb/OEBSimpleIdReader.cpp \
 	NativeFormats/fbreader/src/formats/oeb/OEBTextStream.cpp \
 	NativeFormats/fbreader/src/formats/oeb/OEBUidReader.cpp \
+	NativeFormats/fbreader/src/formats/oeb/OPFReader.cpp \
 	NativeFormats/fbreader/src/formats/oeb/XHTMLImageFinder.cpp \
 	NativeFormats/fbreader/src/formats/rtf/RtfBookReader.cpp \
 	NativeFormats/fbreader/src/formats/rtf/RtfDescriptionReader.cpp \

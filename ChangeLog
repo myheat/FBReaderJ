@@ -1,4 +1,29 @@
-===== 1.10 (Apr ??, 2014) =====
+===== 1.10.1 (May ??, 2014) =====
+* Updated German localization by Matthias Dill
+
+===== 1.10.0.5 (Apr 22, 2014) =====
+* Fixed crash on unexisting function (LinkedList.push()) for devices with SDK <= 8
+* Fixed problem with fullscreen mode warning (it was not possible to dismiss it on some devices)
+* Save book position in background
+
+===== 1.10.0.4 (Apr 21, 2014) =====
+* Fixed metrics == null issue
+* Fixed yota-specific class cast exception
+* Fixed NPE in FontEntry.equals()
+* Fixed NPE in ZLTextPlainModel.getTextLength()
+* Fixed skip operation on non-compressed zips
+* Fixed possible AOOB in text model
+
+===== 1.10.0.3 (Apr 21, 2014) =====
+* Fixed duplicate processing for some CSS properties
+
+===== 1.10.0.2 (Apr 21, 2014) =====
+* Fixed NPE in embedded font copying code
+
+===== 1.10.0.1 (Apr 21, 2014) =====
+* Fixed NPE if external cache dir is not defined
+
+===== 1.10 (Apr 21, 2014) =====
 * Fixed current position storing
 * New directory settings
 * Android 2.2 and higher: standard cache directory is now used
